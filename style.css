@@ -1,0 +1,80 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#navbar {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#sidebar {
+    height: 100%;
+    width: 150px;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+#section {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    margin-top: 10px;
+}
+
+#grande {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    gap: 250px;
+    align-items: center;
+}
+
+#main {
+    width: 650px;
+    height: 500px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+#article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+input  {
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+}
+
+#botton {
+    width: 50px;
+    height: 25px;
+}
+
+#avatar {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    justify-content: flex-end;
+}
